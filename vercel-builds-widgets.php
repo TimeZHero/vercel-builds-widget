@@ -99,7 +99,6 @@ add_action('wp_dashboard_setup', function () {
     }
 
     $timers = $successful->map(fn ($post) => get_post_meta($post->ID, 'end', true) - get_post_meta($post->ID, 'start', true));
-    $timers = collect([51, 64, 72, 61, 71, 58]);
     $avg = round($timers->avg());
 
     wp_add_dashboard_widget('build-time', "Average build time: {$avg} seconds", function () use ($timers) {

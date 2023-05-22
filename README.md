@@ -18,5 +18,6 @@
 ```
 
 1. Run `composer require "timezhero/vercel-builds-widget"`
-2. Install and activate <a href='https://wordpress.org/plugins/simple-charts/'>the simple chart plugin</a>
-3. Activate this plugin and check out your dashboard tab
+2. Install and activate <a href='https://github.com/TimeZHero/wp-vercel-builds/'>the vercel builds plugin</a>
+3. Install and activate <a href='https://wordpress.org/plugins/simple-charts/'>the simple chart plugin</a>
+4. Activate this plugin and check out your dashboard tab

@@ -1,0 +1,10 @@
+{
+  "name": "timezhero/vercel-builds-widgets",
+  "description": "Display charts based on the vercel-builds plugin",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "type": "wordpress-plugin",
+  "require": {
+    "illuminate/support": "^9.48"
+  }
+}
